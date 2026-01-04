@@ -79,20 +79,20 @@ Based on training-sample evidence, the final months used for switching are:
 
 Let:
 
-- \( r^{FD}_t \) = monthly L/S return of Forecast Dispersion  
-- \( r^{PY}_t \) = monthly L/S return of Payout Yield  
-- \( m_t \in \{1,\dots,12\} \) = calendar month  
-- \( S = \{1,4\} \) = special months (Jan, Apr)
+- $r^{FD}_t$ = monthly L/S return of Forecast Dispersion  
+- $r^{PY}_t$ = monthly L/S return of Payout Yield  
+- $m_t \in \{1,\dots,12\}$ = calendar month  
+- $S = \{1,4\}$ = special months (Jan, Apr)
 
 ### Hard switch rule (main)
 
-\[
+$$
 r^{SW}_t =
 \begin{cases}
 r^{PY}_t & \text{if } m_t \in S \\
 r^{FD}_t & \text{otherwise}
 \end{cases}
-\]
+$$
 
 Benchmarks:
 - FD only
